@@ -9,12 +9,8 @@ jobs:
       
       - run:
           name: Dependencias
-          command: bundle install
+          command: Hello world
       
       - run:
           name: Compilar el sitio
-          command: bundle exec jekyll build
-          
-      - run:
-          name: Imprime la fecha actual
           command: date
