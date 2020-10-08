@@ -1,3 +1,8 @@
 p {
   color: red;
+  background-color:black;
+}
+
+h1{ font-family: Arial;
+border: 12px solid;
 }
